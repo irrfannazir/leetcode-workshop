@@ -1,1 +1,1 @@
-Loved the way cracking some leetcode problems. i would like to share the problem i did with you guys.
+Loved the way cracking some leetcode problems. inspired from @hisham1665 i would like to share the problem i did with you guys.
