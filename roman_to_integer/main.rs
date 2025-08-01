@@ -21,15 +21,15 @@ impl Solution{
 
     pub fn roman_to_int(s: String) -> i32 {
 
-        let chars: Vec<char> = s.chars().collect();
+        let len = s.len();
         let mut total = 0;
         let mut i = 0;
 
-        while i < chars.len() {
-            let current_val = Self::roman_value(chars[i]);
+        while i < len {
+            let current_val = Self::roman_value(s.as_bytes()[i] as char);
 
-            if i + 1 < chars.len() {
-                let next_val = Self::roman_value( chars[i + 1] );
+            if i + 1 < len {
+                let next_val = Self::roman_value( s.as_bytes()[i + 1] as char);
                 if current_val < next_val {
                     total += next_val - current_val;
                     i += 2;
