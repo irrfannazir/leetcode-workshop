@@ -1,7 +1,8 @@
 struct Solution;
 
 /*
-
+Runtime:    0ms | Beats 100%
+Space:      2MB | Beats 97.39%
 */
 
 impl Solution{
